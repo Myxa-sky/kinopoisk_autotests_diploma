@@ -1,14 +1,16 @@
-# kinopoisk_autotests_diploma
-дипломный проект по  тестированию веб-приложения Кинопоиск
-# pytest_ui_api_template
+# Автотесты для Кинопоиска
 
-## Шаблон для автоматизации тестирования на python
+Дипломный проект по автоматизации тестирования веб-приложения Кинопоиск.
 
-### Стек:
-- pytest
-- selenium
-- requests
-- _sqlalchemy_
+## Стек технологий
+- Python
+- Pytest
+- Selenium
+- WebDriver Manager
+- Allure Framework
 
-### Полезные ссылки
-- [Подсказка по markdown](https://www.markdownguide.org/basic-syntax/)
+## Запуск тестов
+
+1. Установите зависимости: `pip install -r requirements.txt`
+2. Запустите тесты: `pytest`
+3. Сгенерируйте отчет: `allure serve allure-results`
